@@ -1,0 +1,19 @@
+{
+  "name": "higher",
+  "version": "1.0.0",
+  "description": "Higher order function library",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roppa/higher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roppa/higher/issues"
+  },
+  "homepage": "https://github.com/roppa/higher#readme"
+}
