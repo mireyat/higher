@@ -4,7 +4,8 @@
   "description": "Higher order function library",
   "main": "index.js",
   "scripts": {
-    "test": "tape"
+    "test": "tape 'lib/**/*.spec.js'",
+    "dev": "watch 'npm run test' lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/roppa/higher/issues"
   },
-  "homepage": "https://github.com/roppa/higher#readme"
+  "homepage": "https://github.com/roppa/higher#readme",
+  "devDependencies": {
+    "tape": "^4.8.0",
+    "watch": "^1.0.2"
+  }
 }
